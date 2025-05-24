@@ -1,11 +1,11 @@
 {
-  "name": "biological-core-project",
+  "name": "yoga-grp-project-alpha25-refined",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/biological-core-project/",
+    "build": "vite build --base=/yoga-grp-project-alpha25-refined/",
     "preview": "vite preview"
   },
   "devDependencies": {
@@ -14,7 +14,7 @@
     "postcss-sort-media-queries": "^5.2.0",
     "vite": "^5.4.6"
   },
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "ZVyacheslavV",
   "license": "ISC",
   "dependencies": {
     "vite-plugin-full-reload": "^1.2.0",
