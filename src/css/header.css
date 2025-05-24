@@ -1,11 +1,18 @@
 /* Header */
 .page-header {
   background: #f2fafa;
-  z-index: 1;
+  z-index: 999;
+  position: fixed;
+  transition: transform 0.3s ease-in-out;
+}
+
+.page-header.hdie {
+  transform: translateY(-100%);
 }
 
 .container-header {
-  height: 64px;
+  height: 72px;
+  max-width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;

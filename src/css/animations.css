@@ -17,6 +17,16 @@
   }
 }
 
+/* Header animation */
+.header-links-animation {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-links-animation:hover,
+.header-links-animation:focus {
+  color: var(--color-neutral);
+}
+
 .blue-button-animation {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -60,16 +70,6 @@
 .silver-button-animation:hover,
 .silver-button-animation:focus {
   background-color: var(--color-neutral-lightest);
-}
-
-/* Header animation */
-.header-links-animation {
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.header-links-animation:hover,
-.header-links-animation:focus {
-  color: var(--color-neutral);
 }
 
 /* Team section personal */
