@@ -1,4 +1,7 @@
 /* Hero-mobile */
+.hero {
+  padding-top: 72px;
+}
 
 .hero-thumb {
   padding: 0;
