@@ -120,7 +120,7 @@
   padding: 23px 0;
 }
 
-/* .header-nav-link.active-link {
+.header-nav-link.active-link {
   border-bottom: 2px solid rgba(13, 11, 10, 0.5);
   padding-bottom: 2px;
-} */
+}
