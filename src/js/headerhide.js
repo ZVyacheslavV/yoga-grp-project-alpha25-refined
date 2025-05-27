@@ -1,14 +1,12 @@
 let lastScrollY = window.scrollY;
-const header = document.querySelector('.site-header');
+const header = document.querySelector('.page-header');
 
 window.addEventListener('scroll', () => {
   const currentScrollY = window.scrollY;
 
-  if (currentScrollY > lastScrollY && currentScrollY > 50) {
-    // Скролл вниз — прячем хедер
+  if (currentScrollY > lastScrollY && currentScrollY > 60) {
     header.classList.add('hide');
   } else {
-    // Скролл вверх — показываем хедер
     header.classList.remove('hide');
   }
 
