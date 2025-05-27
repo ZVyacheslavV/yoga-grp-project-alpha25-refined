@@ -1,7 +1,7 @@
 /* Navbar */
 .mobile-menu {
   position: fixed;
-  top: 0;
+  top: 72px;
   left: 0;
   z-index: 99999;
   width: 100%;
@@ -45,7 +45,8 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.btn-x:hover .icon-x, .btn-x:focus .icon-x {
+.btn-x:hover .icon-x,
+.btn-x:focus .icon-x {
   fill: var(--color-neutral);
 }
 
@@ -76,7 +77,8 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.menu-list:hover, .menu-list:focus {
+.menu-list:hover,
+.menu-list:focus {
   color: var(--color-neutral);
 }
 
@@ -99,17 +101,17 @@
 
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
-    .div-menu {
-  padding: 0 32px;
-}
+  .div-menu {
+    padding: 0 32px;
+  }
 
-.top-div {
-  padding: 8px 0;
-  gap: 233px;
-}
+  .top-div {
+    padding: 8px 0;
+    gap: 233px;
+  }
 
-.btn-bottom {
-  width: 100%;
-  max-width: 204px;
-}
+  .btn-bottom {
+    width: 100%;
+    max-width: 204px;
+  }
 }
