@@ -85,3 +85,25 @@
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
   border-radius: 16px;
 } */
+
+/* Testimonials */
+/* .testimonials-photo {
+  transition: transform 300ms ease, box-shadow 300ms ease;
+}
+
+.testimonials-photo:hover,
+.testimonials-photo:focus {
+  transform: scale(1.08);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+} */
+
+/* Pricing */
+.pricing-item {
+  transition: transform 300ms ease, box-shadow 300ms ease;
+}
+
+.pricing-item:hover,
+.pricing-item:focus {
+  transform: scale(1.012);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
