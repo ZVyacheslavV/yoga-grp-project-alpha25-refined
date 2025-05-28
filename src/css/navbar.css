@@ -96,13 +96,15 @@ top: 0;
 .btn-bottom {
   border: 1px solid #c2d9fc;
   border-radius: 100px;
-  display: block;
+  /*   display: block; */
   width: 100%;
   max-width: 343px;
   height: 46px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
+  padding: 10px 24px;
+  text-align: center;
   color: var(--color-neutral-darkest);
   background-color: #c2d9fc;
   transition-property: background-color;
