@@ -41,8 +41,25 @@
   transform: translateX(-50%);
 }
 
-.burger-btn {
+.burger-btn,
+.close-btn {
   background-color: transparent;
+}
+
+.burger-btn.hide {
+  display: none;
+}
+
+.close-btn.hide {
+  display: none;
+}
+
+.close-btn.visible {
+  display: block;
+}
+
+.close-btn {
+  display: none;
 }
 
 @media screen and (min-width: 1336px) {
