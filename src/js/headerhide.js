@@ -6,7 +6,7 @@ const navScrollLinks = document.querySelectorAll('.header-nav-link');
 window.addEventListener('scroll', () => {
   const currentScrollY = window.scrollY;
 
-  if (currentScrollY > lastScrollY && currentScrollY > 30) {
+  if (currentScrollY > lastScrollY && currentScrollY > 40) {
     headerHide.classList.add('hide');
   } else {
     headerHide.classList.remove('hide');
