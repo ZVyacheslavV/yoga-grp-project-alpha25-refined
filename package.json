@@ -5,8 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "start": "vite",
     "build": "vite build --base=/yoga-grp-project-alpha25-refined/",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "push": "node node_scripts_personal/push.js",
+    "restart": "node node_scripts_personal/push.js"
   },
   "devDependencies": {
     "glob": "^11.0.0",
